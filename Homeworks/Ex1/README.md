@@ -48,3 +48,13 @@ Below are some characteristics of offline data extraction:
 | **Error Handling**      | Requires robust error handling mechanisms due to continuous data flow             | Errors can be managed between extraction intervals                                |
 | **Security**            | Higher risk of security issues due to continuously exposed connection                       | Lower risk as data is handled in batches with only periodic connections                                         |
 | **Cost**                | Generally more expensive due to continuous resource usage                         | More cost-effective due to reduced resource requirements                          |
+
+## Examples
+
+### Online Data Extraction Example
+
+**Example**: An e-commerce organization allows its users to place orders via smartphones, tablets, computers, websites, and social media. To determine user shopping behavior for the next marketing campaign, a data analyst extracts customer records like names, email addresses, purchase history, and social media behavior in real-time using a data extraction tool. This ensures that the most recent data is always available for analysis.
+
+### Offline Data Extraction Example
+
+**Example**: A retail company wants to generate weekly sales reports. They use an offline extraction process to extract sales data from their transactional databases in batches every Sunday night. The data is then stored in a data lake and processed on Monday morning to generate the reports. This method ensures that the extraction process does not interfere with daily operations and provides a consistent schedule for data analysis.

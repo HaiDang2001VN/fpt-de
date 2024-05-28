@@ -59,3 +59,15 @@ Some of the most prominent characteristics of ELT are:
 | **Maturity**            | Well-established with extensive documentation and tools                       | Newer approach with growing adoption and tool support                         |
 | **Cost**                | Can be cost-effective for smaller data sets                                   | Potentially higher costs due to increased storage and processing requirements |
 | **Integrity**                | Integrity of stored data is questionable as only the transformed data is loaded                                   | Integrity is maintained as the pre-transformed data is also stored in data lakes |
+
+## Examples
+
+### ETL Example
+
+**Example**: A retail company wants to improve its data analytics capabilities. They use an ETL process to extract sales data from their transactional databases, transform it to aggregate daily sales totals, and load it into a data warehouse. This allows the company to generate daily sales reports and analyze trends over time.
+
+### ELT Example
+
+**Example**: A tech company collects large volumes of log data from its web applications. They use an ELT process to extract the raw log data, load it directly into a cloud-based data lake, and then transform the data within the data lake to identify patterns and anomalies. This enables real-time monitoring and quick identification of issues.
+
+Understanding the differences between these two methodologies is crucial for optimizing data integration and achieving efficient data management. The choice between ETL and ELT depends on the specific needs and constraints of the data engineering project.
