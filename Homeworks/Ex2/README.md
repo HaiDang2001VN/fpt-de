@@ -16,7 +16,7 @@ ETL is a traditional data integration process that has been in use since the 197
 
 Some of the most prominent characteristics of ETL are:
 
-- **Pre-Load Transformation**: Data is transformed before it is loaded into the target system.
+- **Pre-Load Transformation**: Data is transformed before it is loaded into the target system such as data warehouse.
 - **Structured Data**: ETL is best suited for structured data that fits into relational databases.
 - **Compliance**: ETL can ensure data compliance by transforming and cleaning data before loading it into the target system.
 - **Resource Efficiency**: ETL processes are designed to be efficient in terms of resource usage, making them suitable for environments with limited computational power.
@@ -69,5 +69,3 @@ Some of the most prominent characteristics of ELT are:
 ### ELT Example
 
 **Example**: A tech company collects large volumes of log data from its web applications. They use an ELT process to extract the raw log data, load it directly into a cloud-based data lake, and then transform the data within the data lake to identify patterns and anomalies. This enables real-time monitoring and quick identification of issues.
-
-Understanding the differences between these two methodologies is crucial for optimizing data integration and achieving efficient data management. The choice between ETL and ELT depends on the specific needs and constraints of the data engineering project.

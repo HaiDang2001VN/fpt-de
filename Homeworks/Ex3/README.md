@@ -62,12 +62,12 @@ Some of the most prominent characteristics of Containers are:
 
 ### Virtual Environments
 
-**Example**: A Python developer working on multiple projects can use virtual environments to manage dependencies for each project separately. This ensures that updating a library for one project does not affect other projects.
+**Example**: A Python developer working on multiple projects can use virtual environments to manage dependencies for each project separately. This ensures that updating a library for one project does not affect other projects, therefore preserving the project's integrity of dependencies as well as replicability.
 
 ### Virtual Machines
 
-**Example**: A QA team needs to test an application on different operating systems (Windows, Linux, macOS). They can create VMs for each OS on a single physical machine, allowing them to test the application in different environments without needing multiple physical machines.
+**Example**: A QA team needs to test an application on different operating systems (Windows, Linux, macOS). They can create VMs for each OS on a single physical machine, allowing them to test the application in different environments without needing multiple physical machines as well as dual-booting which may be problematic and time-consuming.
 
 ### Containers
 
-**Example**: A DevOps team uses Docker containers to deploy a microservices-based application. Each microservice runs in its own container, allowing the team to scale individual services independently and deploy updates without affecting the entire application.
+**Example**: A DevOps team uses Docker containers to deploy a microservices-based application. Each microservice runs in its own container, allowing the team to scale individual services independently upon imbalance amount of requests and deploy updates for individual microservices without affecting the entire application.
